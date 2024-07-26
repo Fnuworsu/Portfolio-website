@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./imgs/favicon.jpg" type="image/jpg">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo-holder">
+            <div class="logo">F</div>
+            <div class="logo-text">Felix's Portfolio</div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="https://docs.google.com/document/d/1o5HkgS8J657Ouh-ppvuMs5aZq6H83ptIncexo-WVJQo/edit?usp=sharing"  target="_blank">Resume</a>
+                </li>
+                <li>
+                    <a href="mailto:fnuworsu@gsumail.gram.edu" class="button">Contact Me</a>
+                </li>
+            </ul>
+            <a href="#" class="mobile-toggle" onclick="toggleMobileMenu()">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+                  </svg>
+                  
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero container">
+            <div class="hero-blue">
+                <div>
+                    <h1><small>Hi I'm</small>
+                        Felix Nuworsu
+                    </h1>
+                    <p>I'm a software egineer <br><span>
+                        
+                    </span></p>
+                    <div class="call-to-action">
+                        <a href="https://docs.google.com/document/d/1o5HkgS8J657Ouh-ppvuMs5aZq6H83ptIncexo-WVJQo/edit?usp=sharing" target="_blank" class="button black">
+                            View Resume
+                        </a>
+                        <a href="mailto:fnuworsu@gsumail.gram.edu
+                        " class="button white">
+                            Contact Me
+                        </a>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Fnuworsu" target="_blank">
+                        <img src="./imgs/github.png" alt="Felix Nuworsu" width="30">
+                    </a>
+                    <a href="www.linkedin.com/in/felix-nuworsu2" target="_blank">
+                        <img src="./imgs/linkedin.png" alt="linkedIn"  width="30">
+                    </a>
+                </div>
+            </div>
+            <div class="hero-yellow">
+                <video src="./imgs/Untitled video - Made with Clipchamp.mp4" width="40%"></video>
+            </div>
+        </section>
+        <section class="logos container">
+            <div class="marquee">
+                <div class="track">
+                    <img src="./imgs/html.png" alt="HTML" width="128">
+                    <img src="./imgs/css.png" alt="CSS" width="128">
+                    <img src="./imgs/javascript.png" alt="JAVASCRIPT" width="128">
+                    <img src="./imgs/nextjs.png" alt="NEXTJS" width="128">
+                    <img src="./imgs/python.png" alt="PYTHON" width="128">
+                    <img src="./imgs/react.png" alt="REACT" width="128">
+                    <img src="./imgs/sass.png" alt="SASS" width="128">
+                    <img src="./imgs/vscode.png" alt="VSCODE" width="128">
+                    <img src="./imgs/html.png" alt="HTML" width="128">
+                    <img src="./imgs/css.png" alt="CSS" width="128">
+                    <img src="./imgs/javascript.png" alt="JAVASCRIPT" width="128">
+                    <img src="./imgs/nextjs.png" alt="NEXTJS" width="128">
+                    <img src="./imgs/python.png" alt="PYTHON" width="128">
+                    <img src="./imgs/react.png" alt="REACT" width="128">
+                    <img src="./imgs/sass.png" alt="SASS" width="128">
+                    <img src="./imgs/vscode.png" alt="VSCODE" width="128">
+                </div>
+            </div>
+        </section>
+        <section class="skills container">
+            <h2>
+                <small>About Me</small>
+                SKILLS
+            </h2>
+            <div class="holder-blue">
+                <div class="left-column">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>React</li>
+                    </ul>
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>Spring boot</li>
+                        <li>Flask</li>
+                    </ul>
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>PostgreSQL</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+                <div class="right-column">
+                    <h3>A bit about me</h3>
+                    <p>Hello! I'm Felix Nuworsu, a dedicated software Engineer and Machine Learning enthusiast. With a passion for creating innovative and efficient solutions, I specialize in both front-end and back-end development. My expertise spans a wide range of technologies, including HTML, CSS, JavaScript, React, Node.js, and Python.
+
+                        In addition to my web development skills, I have a strong interest in Machine Learning and Artificial Intelligence. I enjoy leveraging data-driven approaches to solve complex problems and improve user experiences. Whether it's building dynamic web applications or developing intelligent models, I thrive on challenges and continuously seek opportunities to learn and grow in the tech field.
+                        
+                        I'm always excited to collaborate on new projects and contribute to meaningful advancements in technology. If you have a project in mind or just want to connect, feel free to reach out!</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="bento container">
+            <h2>
+                <small>
+                    Previous
+                </small>
+                Completed Projects
+            </h2>
+            <div class="bento-grid">
+                <a href="https://github.com/Fnuworsu/Whisper-GPT.git" target="_blank" class="bento-item">
+                    <img src="./imgs/New Tab - Google Chrome 7_26_2024 7_47_06 PM.png" alt="Felix Nuworsu" width="110%" height="200%">
+                </a>
+                <a href="https://github.com/Fnuworsu/Youtube-bookmarker-chrome-extension.git" target="_blank" class="bento-item">
+                    <img src="./imgs/chrome.png" alt="Video Thumbnail" class="thumbnail" id="video-thumbnail">
+                    <button class="play-button" onclick="playVideo()">Play</button>
+                    <video id="video" controls style="display: none;">
+                        <source src="./imgs/chrome.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </a>
+                <a href="https://github.com/Fnuworsu/Self-Driving-Car.git" class="bento-item" target="_blank">
+                    <img src="./imgs/car.png" alt="Felix Nuworsu" width="100%" height="200%"
+                </a>
+            </div>
+        </section>
+        
+    </main>
+    <script src="./scripts.js"></script>
+</body>
+</html>
